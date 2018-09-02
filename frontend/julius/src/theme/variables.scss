@@ -43,12 +43,12 @@ $colors: (
 
 
 // Use the primary color as the background for the toolbar-md-background
-$toolbar-md-background:                   color($colors, primary);
+$toolbar-md-background:                   transparent;
 
 // Use the default background for the tabbar since it inherits from toolbar
-$tabbar-md-background:                    color($colors, secondary);
+$tabbar-md-background:                    transparent;
 
-$tabs-background:                         color($colors, secondary);
+$tabs-background:                         transparent;
 
 $tabs-wp-border-color: color($colors, light);
 $tabs-border-color: color($colors, light);

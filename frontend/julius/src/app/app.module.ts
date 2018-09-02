@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { GoalsPage } from '../pages/goals/goals';
+import { EarningsPage } from '../pages/earnings/earnings';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -14,6 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     GoalsPage,
+    EarningsPage,
     TabsPage
   ],
   imports: [
@@ -25,6 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     GoalsPage,
+    EarningsPage,
     TabsPage
   ],
   providers: [
